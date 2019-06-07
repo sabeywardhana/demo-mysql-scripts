@@ -16,5 +16,7 @@ create database REGISTRY_LOCAL2;
 use REGISTRY_LOCAL2;
 grant all on REGISTRY_LOCAL2.* TO 'regadmin'@'%' identified by 'regadmin';
 
+grant all on *.* TO 'root'@'%' identified by 'root';
+FLUSH PRIVILEGES;
 
 	
